@@ -12,5 +12,5 @@ int _isalpha(int c);
 void print_alphabet(void);
 int _islower(int c);
 void times_table(void);
-
+int add(int a, int b);
 #endif /* MAIN_H */
