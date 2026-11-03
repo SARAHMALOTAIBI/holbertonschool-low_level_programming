@@ -14,9 +14,7 @@ void print_table(int size)
 	{
 		for (col = 1; col <= size; col++)
 		{
-			printf("%d", row * col);
-			if (col < size)
-				printf(" ");
+			printf("%d ", row * col);
 		}
 		printf("\n");
 	}
@@ -29,3 +27,33 @@ int main(void)
 	print_table(4);
 	return (0);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
