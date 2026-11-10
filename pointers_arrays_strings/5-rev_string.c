@@ -12,13 +12,11 @@ void rev_string(char *s)
 	int i;
 	char tmp;
 
-	/* حساب طول النص أولاً */
 	while (s[len] != '\0')
 	{
 		len++;
 	}
 
-	/* تبديل الحروف من البداية والنهاية نحو المنتصف */
 	for (i = 0; i < len / 2; i++)
 	{
 		tmp = s[i];
@@ -26,3 +24,30 @@ void rev_string(char *s)
 		s[len - 1 - i] = tmp;
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
