@@ -8,6 +8,7 @@
 int main(void)
 {
 	int choice;
+	int a, b;
 
 	do {
 		printf("Simple Calculator\n");
@@ -28,19 +29,70 @@ int main(void)
 			printf("Bye!\n");
 			break;
 		}
+		else if (choice == 1)
+		{
+			printf("A: ");
+			if (scanf("%d", &a) != 1)
+				break;
+			printf("B: ");
+			if (scanf("%d", &b) != 1)
+				break;
+			printf("Result: %d\n", a + b);
+		}
 		else if (choice < 0 || choice > 4)
 		{
 			printf("Invalid choice\n");
 		}
 		else
 		{
-			/* Placeholder for arithmetic operations in upcoming tasks */
 			printf("Feature not implemented yet.\n");
 		}
 	} while (1);
 
 	return (0);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
