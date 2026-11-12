@@ -28,11 +28,53 @@ int main(void)
 			printf("Bye!\n");
 			break;
 		}
+		else if (choice < 0 || choice > 4)
+		{
+			printf("Invalid choice\n");
+		}
 		else
 		{
-			printf("Invalid choice or feature not implemented yet.\n");
+			/* Placeholder for arithmetic operations in upcoming tasks */
+			printf("Feature not implemented yet.\n");
 		}
-	} while (choice != 0);
+	} while (1);
 
 	return (0);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
